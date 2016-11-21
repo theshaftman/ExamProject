@@ -9,8 +9,6 @@
 
 namespace ExamProject
 {
-
-
     public partial class _Default
     {
     }

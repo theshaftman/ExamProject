@@ -3,6 +3,9 @@
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
     <section class="featured">
         <div class="content-wrapper">
+            <div id="logIn">
+                <p>Log In</p>
+            </div>
         </div>
     </section>
 </asp:Content>

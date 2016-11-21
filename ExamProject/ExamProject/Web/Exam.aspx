@@ -2,6 +2,5 @@
 
 <asp:content runat="server" id="BodyContent" contentplaceholderid="MainContent">
     <div id="exam_id">
-
     </div>
 </asp:content>

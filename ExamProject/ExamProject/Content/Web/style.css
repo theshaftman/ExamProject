@@ -1,0 +1,26 @@
+﻿#logIn {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: azure;
+}
+
+#logIn:hover {
+    cursor: pointer;
+    background-color: ActiveBorder;
+}
+
+#logIn p {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 40px;
+}
+
+li #examLink {
+    display: none;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.5em;
+}
