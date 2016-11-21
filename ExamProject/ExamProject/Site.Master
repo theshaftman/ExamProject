@@ -31,6 +31,10 @@
             <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
             <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
             <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+            <asp:ScriptReference Path="~/Scripts/Web/Init.js" />
+            <asp:ScriptReference Path="~/Scripts/Web/Exam/Service.js" />
+            <asp:ScriptReference Path="~/Scripts/Web/Exam/ViewModel.js" />
+            <asp:ScriptReference Path="~/Scripts/Web/Exam/Controller.js" />
             <asp:ScriptReference Name="WebFormsBundle" />
             <%--Site Scripts--%>
 
@@ -63,6 +67,7 @@
                 <nav>
                     <ul id="menu">
                         <li><a runat="server" href="~/">Home</a></li>
+                        <li><a runat="server" href="~/Web/Exam">Exam</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                     </ul>
                 </nav>
@@ -78,7 +83,7 @@
     <footer>
         <div class="content-wrapper">
             <div class="float-left">
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Application</p>
             </div>
         </div>
     </footer>

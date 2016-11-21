@@ -24,6 +24,7 @@ namespace ExamProject
                 // Use the Anti-XSRF token from the cookie
                 _antiXsrfTokenValue = requestCookie.Value;
                 Page.ViewStateUserKey = _antiXsrfTokenValue;
+                
             }
             else
             {
