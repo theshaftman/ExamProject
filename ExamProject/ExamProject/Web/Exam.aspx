@@ -105,6 +105,7 @@
         <div id="exam_2">
             <h1>Task 2</h1>
             <a href="#" class="important" id="submit_button_2">Submit</a>
+            <img alt="pictureAsResult" src="#" />
             <input type="file" id="drop_files" />
         </div>
     </div>

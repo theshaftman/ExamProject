@@ -68,3 +68,8 @@ input[type=checkbox] {
 .questions_content {
     display: none;
 }
+
+#drop_files {
+    padding: 50px 0;
+    width: 100%;
+}

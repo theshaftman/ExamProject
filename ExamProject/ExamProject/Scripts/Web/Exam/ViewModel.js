@@ -6,6 +6,14 @@ var ViewModel_Exam = function () {
     self.onClickEvents = function () {
         Service_Exam.addSubmitionOnClickEvent("exam_begin_button", "Are you sure you want to start the exam?", ["exam_begin_button"], "exam_1", true);
         Service_Exam.addSubmitionOnClickEvent("submit_button_1", "Are you sure you want to move to the next question?", ["submit_button_1", "exam_1"], "exam_2", false);
+
+        $("#submit_button_2").unbind();
+        $("#submit_button_2").on("click", function () {
+            if (confirm("Are you sure you would like to finish your exam?")) {
+                // TODO: Modify the location href.
+                window.location.href = "/";
+            }
+        });
     }
 
     self.questionsClickEvents = function () {
