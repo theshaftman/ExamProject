@@ -3,7 +3,7 @@
 var Service_Exam = (function () {
 
     var id = "exam_id";
-    var minutes = 1;
+    var minutes = 20;
     var seconds = 0;
 
     return {

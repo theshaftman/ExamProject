@@ -36,6 +36,10 @@ footer p {
     text-decoration: none;
 }
 
+    .button:hover {
+        background-color: white;
+    }
+
 input[type=checkbox] {
     display: block;
 }
