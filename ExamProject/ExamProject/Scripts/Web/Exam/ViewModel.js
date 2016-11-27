@@ -17,6 +17,17 @@ var ViewModel_Exam = function () {
 
             $("#option" + id).css("display", "block");
             $(".button").css("background-color", "white");
+
+            var allQuestions = $(".questions_content");
+
+            for (var i = 0; i < allQuestions.length; i++) {
+                var anyClicked = $(allQuestions[i]).find("input:checked");
+
+                if (anyClicked.length > 0) {
+                    $("#b" + (i + 1)).css("background-color", "#D9E0D9");
+                }
+            }
+
             this.style.backgroundColor = "#c2d1f0";
         });
     }
