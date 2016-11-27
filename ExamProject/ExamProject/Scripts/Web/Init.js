@@ -3,7 +3,7 @@
 window.addEventListener("load", runServer);
 
 function runServer() {
-    var element = document.getElementById("logIn");
+    var element = document.getElementById("login");
     element.addEventListener("click", locationReload);
 
     if (document.getElementById("exam_id") !== null) {

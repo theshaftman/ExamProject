@@ -5,16 +5,16 @@
     background-color: azure;
 }
 
-#logIn:hover {
-    cursor: pointer;
-    background-color: ActiveBorder;
-}
+    #logIn:hover {
+        cursor: pointer;
+        background-color: ActiveBorder;
+    }
 
-#logIn p {
-    position: absolute;
-    margin-left: 45%;
-    margin-top: 40px;
-}
+    #logIn p {
+        position: absolute;
+        margin-left: 45%;
+        margin-top: 40px;
+    }
 
 li #examLink {
     display: none;
@@ -23,4 +23,44 @@ li #examLink {
 footer p {
     text-align: center;
     font-size: 1.5em;
+}
+
+/* Exam styling */
+.button {
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+}
+
+input[type=checkbox] {
+    display: block;
+}
+
+.important {
+    margin-bottom: 10px;
+    padding: 10px;
+    display: block;
+    background-color: #c1d1f0;
+    text-align: center;
+    text-decoration: none;
+}
+
+    .important:hover {
+        background-color: #99b3e6;
+    }
+
+#exam_1 {
+    display: none;
+}
+
+#exam_2 {
+    display: none;
+}
+
+.questions_content {
+    display: none;
 }

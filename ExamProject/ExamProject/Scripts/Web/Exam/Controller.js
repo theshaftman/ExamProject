@@ -10,7 +10,7 @@ var Controller_Exam = (function () {
     };
 
     function init() {
-        model.run();
+        model.onClickEvents();
     }
 
 }());

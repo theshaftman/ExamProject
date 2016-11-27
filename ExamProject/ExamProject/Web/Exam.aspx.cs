@@ -12,5 +12,10 @@ namespace ExamProject.Web
         protected void Page_Load(object sender, EventArgs e)
         {
         }
+
+        protected void SubmitExamClick(object sender, EventArgs e)
+        {
+
+        }
     }
 }
